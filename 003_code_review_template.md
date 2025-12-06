@@ -1,218 +1,217 @@
-# AI Code Review Template
+# Plantilla de Revisión de Código con IA
 
-> **About This Template:** This template provides a structured approach to conducting thorough code reviews with AI assistance. Following this process ensures that code changes are properly evaluated for quality, security, performance, and maintainability.
-
----
-
-## 1. Review Overview
-
-### Review Title
-**Title:** [Brief, descriptive title of the code review - e.g., "Review User Authentication Implementation" or "Review Database Migration Changes"]
-
-### Review Type
-- **Type:** [Feature Review, Bug Fix Review, Refactoring Review, Security Review, Performance Review]
-- **Priority:** [High, Medium, Low]
-- **Reviewer:** [Name of the reviewer or AI agent conducting the review]
-
-### Pull Request Information
-- **PR Number:** [#123]
-- **Branch:** [e.g., `feat/user-auth` or `fix/payment-bug`]
-- **Author:** [Name of the code author]
-- **Files Changed:** [Number of files modified]
+> **Sobre Esta Plantilla:** Esta plantilla proporciona un enfoque estructurado para realizar revisiones de código exhaustivas con asistencia de IA. Seguir este proceso asegura que los cambios de código sean evaluados adecuadamente por calidad, seguridad, rendimiento y mantenibilidad.
 
 ---
 
-## 2. Code Analysis
+## 1. Resumen de la Revisión
 
-### Code Quality Assessment
-- **Readability:** [Excellent, Good, Fair, Poor] - [Brief explanation]
-- **Maintainability:** [Excellent, Good, Fair, Poor] - [Brief explanation]
-- **Performance:** [Excellent, Good, Fair, Poor] - [Brief explanation]
-- **Security:** [Excellent, Good, Fair, Poor] - [Brief explanation]
+### Título de la Revisión
+**Título:** [Título breve y descriptivo de la revisión de código - ej., "Revisar Implementación de Autenticación de Usuario" o "Revisar Cambios de Migración de Base de Datos"]
 
-### Code Style & Standards
-- [ ] Code follows project style guidelines
-- [ ] Consistent naming conventions used
-- [ ] Proper indentation and formatting
-- [ ] No commented-out code left behind
-- [ ] Appropriate use of comments and documentation
+### Tipo de Revisión
+- **Tipo:** [Revisión de Característica, Revisión de Corrección de Error, Revisión de Refactorización, Revisión de Seguridad, Revisión de Rendimiento]
+- **Prioridad:** [Alta, Media, Baja]
+- **Revisor:** [Nombre del revisor o agente de IA realizando la revisión]
 
-### Architecture & Design
-- [ ] Code follows established architectural patterns
-- [ ] Proper separation of concerns
-- [ ] Appropriate use of design patterns
-- [ ] No unnecessary coupling between components
-- [ ] Follows SOLID principles (if applicable)
+### Información del Pull Request
+- **Número de PR:** [#123]
+- **Rama:** [ej., `feat/user-auth` o `fix/payment-bug`]
+- **Autor:** [Nombre del autor del código]
+- **Archivos Cambiados:** [Número de archivos modificados]
 
 ---
 
-## 3. Functional Review
+## 2. Análisis de Código
 
-### Requirements Compliance
-- [ ] Code meets the stated requirements
-- [ ] All user stories/acceptance criteria are addressed
-- [ ] Edge cases are properly handled
-- [ ] Error conditions are managed appropriately
+### Evaluación de Calidad de Código
+- **Legibilidad:** [Excelente, Buena, Regular, Mala] - [Breve explicación]
+- **Mantenibilidad:** [Excelente, Buena, Regular, Mala] - [Breve explicación]
+- **Rendimiento:** [Excelente, Buena, Regular, Mala] - [Breve explicación]
+- **Seguridad:** [Excelente, Buena, Regular, Mala] - [Breve explicación]
 
-### Testing Coverage
-- [ ] Unit tests are present and comprehensive
-- [ ] Integration tests cover the changes
-- [ ] Edge cases are tested
-- [ ] Error scenarios are tested
-- [ ] Test coverage meets project standards
+### Estilo y Estándares de Código
+- [ ] El código sigue las pautas de estilo del proyecto
+- [ ] Se usan convenciones de nomenclatura consistentes
+- [ ] Indentación y formato adecuados
+- [ ] No queda código comentado
+- [ ] Uso apropiado de comentarios y documentación
 
-### Documentation
-- [ ] Code is self-documenting
-- [ ] Complex logic is explained with comments
-- [ ] API documentation is updated (if applicable)
-- [ ] README or user documentation is updated (if applicable)
-
----
-
-## 4. Security Review
-
-### Security Considerations
-- [ ] No hardcoded secrets or credentials
-- [ ] Input validation is implemented
-- [ ] Output encoding is used where appropriate
-- [ ] SQL injection prevention (if applicable)
-- [ ] XSS prevention (if applicable)
-- [ ] CSRF protection (if applicable)
-- [ ] Authentication and authorization are properly implemented
-- [ ] Sensitive data is handled securely
-
-### Data Handling
-- [ ] Personal data is handled according to privacy requirements
-- [ ] Data validation is comprehensive
-- [ ] Error messages don't leak sensitive information
-- [ ] Logging doesn't expose sensitive data
+### Arquitectura y Diseño
+- [ ] El código sigue patrones arquitectónicos establecidos
+- [ ] Separación adecuada de preocupaciones
+- [ ] Uso apropiado de patrones de diseño
+- [ ] Sin acoplamiento innecesario entre componentes
+- [ ] Sigue principios SOLID (si aplica)
 
 ---
 
-## 5. Performance Review
+## 3. Revisión Funcional
 
-### Performance Considerations
-- [ ] No obvious performance bottlenecks
-- [ ] Database queries are optimized (if applicable)
-- [ ] Caching is used appropriately
-- [ ] Memory usage is reasonable
-- [ ] No unnecessary API calls or operations
-- [ ] Asynchronous operations are used where appropriate
+### Cumplimiento de Requisitos
+- [ ] El código cumple con los requisitos establecidos
+- [ ] Todas las historias de usuario/criterios de aceptación están abordados
+- [ ] Los casos borde se manejan adecuadamente
+- [ ] Las condiciones de error se gestionan apropiadamente
 
-### Scalability
-- [ ] Code can handle expected load
-- [ ] No blocking operations in main thread
-- [ ] Resource usage scales appropriately
-- [ ] Database queries scale with data growth
+### Cobertura de Pruebas
+- [ ] Las pruebas unitarias están presentes y son completas
+- [ ] Las pruebas de integración cubren los cambios
+- [ ] Los casos borde están probados
+- [ ] Los escenarios de error están probados
+- [ ] La cobertura de pruebas cumple con los estándares del proyecto
 
----
-
-## 6. Issues Found
-
-### Critical Issues
-- [ ] **Issue 1:** [Description of critical issue]
-- [ ] **Issue 2:** [Description of critical issue]
-
-### Major Issues
-- [ ] **Issue 1:** [Description of major issue]
-- [ ] **Issue 2:** [Description of major issue]
-
-### Minor Issues
-- [ ] **Issue 1:** [Description of minor issue]
-- [ ] **Issue 2:** [Description of minor issue]
-
-### Suggestions for Improvement
-- [ ] **Suggestion 1:** [Description of improvement suggestion]
-- [ ] **Suggestion 2:** [Description of improvement suggestion]
+### Documentación
+- [ ] El código es autodocumentado
+- [ ] La lógica compleja se explica con comentarios
+- [ ] La documentación de la API está actualizada (si aplica)
+- [ ] El README o documentación de usuario está actualizado (si aplica)
 
 ---
 
-## 7. Positive Feedback
+## 4. Revisión de Seguridad
 
-### What's Done Well
-- [ ] **Strength 1:** [Description of what's done well]
-- [ ] **Strength 2:** [Description of what's done well]
-- [ ] **Strength 3:** [Description of what's done well]
+### Consideraciones de Seguridad
+- [ ] Sin secretos o credenciales hardcodeadas
+- [ ] La validación de entrada está implementada
+- [ ] La codificación de salida se usa donde es apropiado
+- [ ] Prevención de inyección SQL (si aplica)
+- [ ] Prevención de XSS (si aplica)
+- [ ] Protección CSRF (si aplica)
+- [ ] La autenticación y autorización están implementadas correctamente
+- [ ] Los datos sensibles se manejan de forma segura
 
-### Best Practices Followed
-- [ ] **Practice 1:** [Description of best practice followed]
-- [ ] **Practice 2:** [Description of best practice followed]
-
----
-
-## 8. Review Summary
-
-### Overall Assessment
-**Overall Rating:** [Excellent, Good, Fair, Poor]
-
-**Summary:** [Brief summary of the review findings, highlighting key issues and strengths]
-
-### Deliverables
-- A code review summary with detailed feedback on code quality, security, and performance.
-- A list of identified issues, categorized by severity.
-- A clear recommendation (Approve, Request Changes, or Reject).
-
-### Recommendation
-- [ ] **Approve** - Code is ready to merge
-- [ ] **Approve with minor changes** - Merge after addressing minor issues
-- [ ] **Request changes** - Address major issues before merging
-- [ ] **Reject** - Significant issues need to be resolved
-
-### Next Steps
-1. [Action item 1]
-2. [Action item 2]
-3. [Action item 3]
+### Manejo de Datos
+- [ ] Los datos personales se manejan de acuerdo con los requisitos de privacidad
+- [ ] La validación de datos es completa
+- [ ] Los mensajes de error no filtran información sensible
+- [ ] El registro (logging) no expone datos sensibles
 
 ---
 
-## 9. AI Agent Instructions
+## 5. Revisión de Rendimiento
 
-### Review Process
-🎯 **MANDATORY PROCESS:**
-1.  **Code Analysis:** Thoroughly analyze all changed files, focusing on the areas mentioned in the review sections above.
-2.  **Context Understanding:** Understand the purpose and context of the changes by reviewing the PR description and related issues.
-3.  **Comprehensive Review:** Check code quality, functionality, security, performance, and adherence to project standards.
-4.  **Issue Identification:** Identify and categorize issues by severity (Critical, Major, Minor).
-5.  **Positive Feedback:** Acknowledge good practices and well-implemented features.
-6.  **Clear Recommendations:** Provide specific, actionable feedback for improvement.
-7.  **Final Assessment:** Make a clear recommendation on whether to approve or request changes.
+### Consideraciones de Rendimiento
+- [ ] Sin cuellos de botella de rendimiento obvios
+- [ ] Las consultas a base de datos están optimizadas (si aplica)
+- [ ] El caché se usa apropiadamente
+- [ ] El uso de memoria es razonable
+- [ ] Sin llamadas a API u operaciones innecesarias
+- [ ] Las operaciones asíncronas se usan donde es apropiado
 
-### Review Focus Areas
-- **Code Quality:** Readability, maintainability, and adherence to coding standards
-- **Functionality:** Correctness, completeness, and proper error handling
-- **Security:** Potential vulnerabilities and secure coding practices
-- **Performance:** Efficiency and scalability considerations
-- **Testing:** Adequate test coverage and quality
-- **Documentation:** Clarity and completeness of code documentation
-
-### Communication Guidelines
-- Be constructive and specific in feedback
-- Provide examples and suggestions for improvements
-- Balance criticism with positive reinforcement
-- Focus on the code, not the person
-- Ask clarifying questions when needed
-- Prioritize issues by severity and impact
+### Escalabilidad
+- [ ] El código puede manejar la carga esperada
+- [ ] Sin operaciones bloqueantes en el hilo principal
+- [ ] El uso de recursos escala apropiadamente
+- [ ] Las consultas a base de datos escalan con el crecimiento de datos
 
 ---
 
-## 10. Review Checklist
+## 6. Problemas Encontrados
 
-### Pre-Review
-- [ ] Pull request is properly described
-- [ ] All required checks are passing
-- [ ] Code is properly formatted
-- [ ] Tests are included and passing
+### Problemas Críticos
+- [ ] **Problema 1:** [Descripción del problema crítico]
+- [ ] **Problema 2:** [Descripción del problema crítico]
 
-### During Review
-- [ ] All changed files are reviewed
-- [ ] Code logic is understood
-- [ ] Security implications are considered
-- [ ] Performance impact is evaluated
-- [ ] Test coverage is adequate
+### Problemas Mayores
+- [ ] **Problema 1:** [Descripción del problema mayor]
+- [ ] **Problema 2:** [Descripción del problema mayor]
 
-### Post-Review
-- [ ] All issues are clearly documented
-- [ ] Recommendations are actionable
-- [ ] Review is completed in a timely manner
-- [ ] Follow-up is planned for requested changes
+### Problemas Menores
+- [ ] **Problema 1:** [Descripción del problema menor]
+- [ ] **Problema 2:** [Descripción del problema menor]
 
+### Sugerencias de Mejora
+- [ ] **Sugerencia 1:** [Descripción de la sugerencia de mejora]
+- [ ] **Sugerencia 2:** [Descripción de la sugerencia de mejora]
+
+---
+
+## 7. Retroalimentación Positiva
+
+### Lo Que Se Hizo Bien
+- [ ] **Fortaleza 1:** [Descripción de lo que se hizo bien]
+- [ ] **Fortaleza 2:** [Descripción de lo que se hizo bien]
+- [ ] **Fortaleza 3:** [Descripción de lo que se hizo bien]
+
+### Mejores Prácticas Seguidas
+- [ ] **Práctica 1:** [Descripción de mejor práctica seguida]
+- [ ] **Práctica 2:** [Descripción de mejor práctica seguida]
+
+---
+
+## 8. Resumen de la Revisión
+
+### Evaluación General
+**Calificación General:** [Excelente, Buena, Regular, Mala]
+
+**Resumen:** [Breve resumen de los hallazgos de la revisión, destacando problemas clave y fortalezas]
+
+### Entregables
+- Un resumen de revisión de código con retroalimentación detallada sobre calidad de código, seguridad y rendimiento.
+- Una lista de problemas identificados, categorizados por gravedad.
+- Una recomendación clara (Aprobar, Solicitar Cambios o Rechazar).
+
+### Recomendación
+- [ ] **Aprobar** - El código está listo para fusionar
+- [ ] **Aprobar con cambios menores** - Fusionar después de abordar problemas menores
+- [ ] **Solicitar cambios** - Abordar problemas mayores antes de fusionar
+- [ ] **Rechazar** - Problemas significativos necesitan resolverse
+
+### Próximos Pasos
+1. [Elemento de acción 1]
+2. [Elemento de acción 2]
+3. [Elemento de acción 3]
+
+---
+
+## 9. Instrucciones para el Agente de IA
+
+### Proceso de Revisión
+🎯 **PROCESO OBLIGATORIO:**
+1.  **Análisis de Código:** Analiza minuciosamente todos los archivos cambiados, enfocándote en las áreas mencionadas en las secciones de revisión anteriores.
+2.  **Entendimiento del Contexto:** Entiende el propósito y contexto de los cambios revisando la descripción del PR y los problemas relacionados.
+3.  **Revisión Completa:** Verifica calidad de código, funcionalidad, seguridad, rendimiento y adherencia a estándares del proyecto.
+4.  **Identificación de Problemas:** Identifica y categoriza problemas por gravedad (Crítica, Mayor, Menor).
+5.  **Retroalimentación Positiva:** Reconoce buenas prácticas y características bien implementadas.
+6.  **Recomendaciones Claras:** Proporciona retroalimentación específica y accionable para mejorar.
+7.  **Evaluación Final:** Haz una recomendación clara sobre si aprobar o solicitar cambios.
+
+### Áreas de Enfoque de Revisión
+- **Calidad de Código:** Legibilidad, mantenibilidad y adherencia a estándares de codificación
+- **Funcionalidad:** Corrección, completitud y manejo adecuado de errores
+- **Seguridad:** Vulnerabilidades potenciales y prácticas de codificación segura
+- **Rendimiento:** Eficiencia y consideraciones de escalabilidad
+- **Pruebas:** Cobertura de pruebas adecuada y calidad
+- **Documentación:** Claridad y completitud de la documentación del código
+
+### Pautas de Comunicación
+- Sé constructivo y específico en la retroalimentación
+- Proporciona ejemplos y sugerencias para mejoras
+- Equilibra la crítica con refuerzo positivo
+- Enfócate en el código, no en la persona
+- Haz preguntas aclaratorias cuando sea necesario
+- Prioriza problemas por gravedad e impacto
+
+---
+
+## 10. Lista de Verificación de Revisión
+
+### Pre-Revisión
+- [ ] El pull request está descrito adecuadamente
+- [ ] Todas las comprobaciones requeridas están pasando
+- [ ] El código está formateado adecuadamente
+- [ ] Las pruebas están incluidas y pasando
+
+### Durante la Revisión
+- [ ] Todos los archivos cambiados son revisados
+- [ ] La lógica del código se entiende
+- [ ] Se consideran las implicaciones de seguridad
+- [ ] Se evalúa el impacto en el rendimiento
+- [ ] La cobertura de pruebas es adecuada
+
+### Post-Revisión
+- [ ] Todos los problemas están claramente documentados
+- [ ] Las recomendaciones son accionables
+- [ ] La revisión se completa de manera oportuna
+- [ ] Se planifica seguimiento para cambios solicitados

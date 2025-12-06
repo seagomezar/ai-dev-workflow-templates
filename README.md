@@ -1,45 +1,45 @@
-# AI Development Workflow Templates
+# Plantillas de Flujo de Trabajo de Desarrollo con IA
 
-A community-driven repository of AI agent templates, playbooks, and task definitions for coding workflows. This project provides a collection of standardized, reusable templates that enable AI agents to assist developers more effectively.
+Un repositorio impulsado por la comunidad de plantillas, guías y definiciones de tareas para agentes de IA en flujos de trabajo de programación. Este proyecto proporciona una colección de plantillas estandarizadas y reutilizables que permiten a los agentes de IA asistir a los desarrolladores de manera más efectiva.
 
-## Vision
+## Visión
 
-- **Standardize AI-assisted workflows** across different development scenarios
-- **Improve AI agent effectiveness** through clear, structured instructions
-- **Reduce setup time** for common development tasks
-- **Promote best practices** in AI-assisted development
-- **Build a community** of contributors sharing knowledge and workflows
+- **Estandarizar flujos de trabajo asistidos por IA** a través de diferentes escenarios de desarrollo
+- **Mejorar la efectividad de los agentes de IA** mediante instrucciones claras y estructuradas
+- **Reducir el tiempo de configuración** para tareas comunes de desarrollo
+- **Promover mejores prácticas** en el desarrollo asistido por IA
+- **Construir una comunidad** de colaboradores que compartan conocimientos y flujos de trabajo
 
-## Available Templates
+## Plantillas Disponibles
 
-| File | Description |
+| Archivo | Descripción |
 | --- | --- |
-| [001_task_planning_template.md](001_task_planning_template.md) | A systematic framework for planning and executing technical projects with AI assistance. |
-| [002_bug_fix_template.md](002_bug_fix_template.md) | A structured approach to identifying, analyzing, and resolving bugs. |
-| [003_code_review_template.md](003_code_review_template.md) | A comprehensive template for conducting thorough code reviews. |
-| [004_git_commit_workflow.md](004_git_commit_workflow.md) | A workflow for creating clear, consistent, and conventional git commits. |
+| [001_task_planning_template.md](001_task_planning_template.md) | Un marco sistemático para planificar y ejecutar proyectos técnicos con asistencia de IA. |
+| [002_bug_fix_template.md](002_bug_fix_template.md) | Un enfoque estructurado para identificar, analizar y resolver errores (bugs). |
+| [003_code_review_template.md](003_code_review_template.md) | Una plantilla completa para realizar revisiones de código exhaustivas. |
+| [004_git_commit_workflow.md](004_git_commit_workflow.md) | Un flujo de trabajo para crear commits de git claros, consistentes y convencionales. |
 
-## How to Use
+## Cómo Usar
 
-These templates are designed to be used by AI coding assistants following a standardized workflow:
+Estas plantillas están diseñadas para ser utilizadas por asistentes de codificación de IA siguiendo un flujo de trabajo estandarizado:
 
-1. **Explain your request** to your coding assistant (e.g., "I need to fix a bug in my authentication system" or "I want to add a new feature for user profiles").
+1. **Explica tu solicitud** a tu asistente de codificación (por ejemplo, "Necesito arreglar un error en mi sistema de autenticación" o "Quiero agregar una nueva función para perfiles de usuario").
 
-2. **The AI assistant automatically:**
-   - Reviews the `AGENTS.md` file to understand the workflow
-   - Identifies the appropriate template based on your request:
-     - Bug fixes → `002_bug_fix_template.md`
-     - New features/development → `001_task_planning_template.md`
-     - Code reviews → `003_code_review_template.md`
-     - Git commits → `004_git_commit_workflow.md`
-   - Follows the template's instructions to complete your task
+2. **El asistente de IA automáticamente:**
+   - Revisa el archivo `AGENTS.md` para entender el flujo de trabajo
+   - Identifica la plantilla apropiada basada en tu solicitud:
+     - Corrección de errores → `002_bug_fix_template.md`
+     - Nuevas funciones/desarrollo → `001_task_planning_template.md`
+     - Revisiones de código → `003_code_review_template.md`
+     - Commits de Git → `004_git_commit_workflow.md`
+   - Sigue las instrucciones de la plantilla para completar tu tarea
 
-## Contributing
+## Contribuir
 
-We welcome contributions! If you have a workflow that could be standardized into a template, please consider contributing. Our goal is to build a comprehensive library of templates for all aspects of software development.
+¡Damos la bienvenida a las contribuciones! Si tienes un flujo de trabajo que podría estandarizarse en una plantilla, considera contribuir. Nuestro objetivo es construir una biblioteca completa de plantillas para todos los aspectos del desarrollo de software.
 
-Please read our [Contributing Guidelines](CONTRIBUTORS.md) to get started.
+Por favor lee nuestras [Pautas de Contribución](CONTRIBUTORS.md) para comenzar.
 
-## License
+## Licencia
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.

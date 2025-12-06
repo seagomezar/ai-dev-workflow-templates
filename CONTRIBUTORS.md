@@ -1,381 +1,380 @@
-# Contributing to AI Development Workflow Templates
+# Contribuyendo a Plantillas de Flujo de Trabajo de Desarrollo con IA
 
-Thank you for your interest in contributing to the AI Development Workflow Templates project! This document provides guidelines for contributing new workflow templates and improving existing ones.
+¡Gracias por tu interés en contribuir al proyecto de Plantillas de Flujo de Trabajo de Desarrollo con IA! Este documento proporciona pautas para contribuir con nuevas plantillas de flujo de trabajo y mejorar las existentes.
 
-## Project Vision
+## Visión del Proyecto
 
-The AI Development Workflow Templates project aims to create a comprehensive collection of standardized, reusable templates that enable AI agents to assist developers more effectively. Our goal is to:
+El proyecto de Plantillas de Flujo de Trabajo de Desarrollo con IA tiene como objetivo crear una colección completa de plantillas estandarizadas y reutilizables que permitan a los agentes de IA asistir a los desarrolladores de manera más efectiva. Nuestro objetivo es:
 
-- **Standardize AI-assisted workflows** across different development scenarios
-- **Improve AI agent effectiveness** through clear, structured instructions
-- **Reduce setup time** for common development tasks
-- **Promote best practices** in AI-assisted development
-- **Build a community** of contributors sharing knowledge and workflows
+- **Estandarizar flujos de trabajo asistidos por IA** a través de diferentes escenarios de desarrollo
+- **Mejorar la efectividad de los agentes de IA** mediante instrucciones claras y estructuradas
+- **Reducir el tiempo de configuración** para tareas comunes de desarrollo
+- **Promover mejores prácticas** en el desarrollo asistido por IA
+- **Construir una comunidad** de colaboradores que compartan conocimientos y flujos de trabajo
 
-## Table of Contents
+## Tabla de Contenidos
 
-- [Project Vision](#project-vision)
-- [Getting Started](#getting-started)
-- [Template Structure](#template-structure)
-- [Creating New Templates](#creating-new-templates)
-- [Template Naming Convention](#template-naming-convention)
-- [Quality Standards](#quality-standards)
-- [Submission Process](#submission-process)
-- [Review Process](#review-process)
-- [Template Categories](#template-categories)
-- [Examples and References](#examples-and-references)
-- [Template Maintenance](#template-maintenance)
-- [Getting Help](#getting-help)
-- [Recognition](#recognition)
-- [License](#license)
+- [Visión del Proyecto](#visión-del-proyecto)
+- [Comenzando](#comenzando)
+- [Estructura de la Plantilla](#estructura-de-la-plantilla)
+- [Creando Nuevas Plantillas](#creando-nuevas-plantillas)
+- [Convención de Nomenclatura de Plantillas](#convención-de-nomenclatura-de-plantillas)
+- [Estándares de Calidad](#estándares-de-calidad)
+- [Proceso de Envío](#proceso-de-envío)
+- [Proceso de Revisión](#proceso-de-revisión)
+- [Categorías de Plantillas](#categorías-de-plantillas)
+- [Ejemplos y Referencias](#ejemplos-y-referencias)
+- [Mantenimiento de Plantillas](#mantenimiento-de-plantillas)
+- [Obteniendo Ayuda](#obteniendo-ayuda)
+- [Reconocimiento](#reconocimiento)
+- [Licencia](#licencia)
 
-## Getting Started
+## Comenzando
 
-### Prerequisites
+### Prerrequisitos
 
-- Basic understanding of markdown formatting
-- Familiarity with AI-assisted development workflows
-- Understanding of the project's purpose and existing templates
+- Entendimiento básico de formato markdown
+- Familiaridad con flujos de trabajo de desarrollo asistidos por IA
+- Entendimiento del propósito del proyecto y plantillas existentes
 
-### Setting Up Your Environment
+### Configurando Tu Entorno
 
-1. Fork the repository
-2. Clone your fork locally
-3. Create a new branch for your contribution
-4. Review existing templates to understand the structure and style
+1. Haz un fork del repositorio
+2. Clona tu fork localmente
+3. Crea una nueva rama para tu contribución
+4. Revisa las plantillas existentes para entender la estructura y el estilo
 
-### Development Workflow
+### Flujo de Trabajo de Desarrollo
 
-1. **Create a feature branch** from `main`
-2. **Make your changes** following the guidelines in this document
-3. **Test your template** with a real scenario
-4. **Submit a pull request** with a clear description
-5. **Respond to feedback** and make necessary revisions
+1. **Crea una rama de característica** desde `main`
+2. **Haz tus cambios** siguiendo las pautas en este documento
+3. **Prueba tu plantilla** con un escenario real
+4. **Envía un pull request** con una descripción clara
+5. **Responde a la retroalimentación** y haz las revisiones necesarias
 
-## Template Structure
+## Estructura de la Plantilla
 
-All templates must follow a consistent structure to ensure they integrate seamlessly with the AI agent workflow system. Here's the required format:
+Todas las plantillas deben seguir una estructura consistente para asegurar que se integren perfectamente con el sistema de flujo de trabajo del agente de IA. Aquí está el formato requerido:
 
-### Required Sections
+### Secciones Requeridas
 
-1. **Header with Template Information**
-   - Template title
-   - Brief description of the template's purpose
-   - "About This Template" section explaining usage
+1. **Encabezado con Información de la Plantilla**
+   - Título de la plantilla
+   - Breve descripción del propósito de la plantilla
+   - Sección "Sobre Esta Plantilla" explicando el uso
 
-2. **Core Content Sections**
-   - Numbered sections (1, 2, 3, etc.)
-   - Clear, actionable subsections
-   - TODO placeholders for customization
-   - Checkboxes for tracking progress
+2. **Secciones de Contenido Central**
+   - Secciones numeradas (1, 2, 3, etc.)
+   - Subsecciones claras y accionables
+   - Marcadores TODO para personalización
+   - Casillas de verificación para seguimiento de progreso
 
-3. **AI Agent Instructions**
-   - Mandatory process steps
-   - Communication preferences
-   - Quality standards
-   - Implementation guidelines
+3. **Instrucciones para el Agente de IA**
+   - Pasos del proceso obligatorio
+   - Preferencias de comunicación
+   - Estándares de calidad
+   - Pautas de implementación
 
-### Template Format Example
+### Ejemplo de Formato de Plantilla
 
 ```markdown
-# [Template Name]
+# [Nombre de la Plantilla]
 
-> **About This Template:** [Brief description of what this template does and when to use it]
-
----
-
-## 1. [First Section]
-
-### [Subsection Title]
-[Content with TODO placeholders for customization]
+> **Sobre Esta Plantilla:** [Breve descripción de lo que hace esta plantilla y cuándo usarla]
 
 ---
 
-## 2. [Second Section]
-[More content...]
+## 1. [Primera Sección]
+
+### [Título de Subsección]
+[Contenido con marcadores TODO para personalización]
 
 ---
 
-## [N]. AI Agent Instructions
+## 2. [Segunda Sección]
+[Más contenido...]
 
-### [Process Name]
-🎯 **MANDATORY PROCESS:**
-1. [Step 1]
-2. [Step 2]
+---
+
+## [N]. Instrucciones para el Agente de IA
+
+### [Nombre del Proceso]
+🎯 **PROCESO OBLIGATORIO:**
+1. [Paso 1]
+2. [Paso 2]
 ...
 
 ---
 
 ```
 
-## Creating New Templates
+## Creando Nuevas Plantillas
 
-### Step 1: Choose Your Template Type
+### Paso 1: Elige Tu Tipo de Plantilla
 
-Consider what workflow or process would benefit from AI assistance. Common categories include:
+Considera qué flujo de trabajo o proceso se beneficiaría de la asistencia de IA. Las categorías comunes incluyen:
 
-- **Development Workflows** (task planning, bug fixes, code reviews)
-- **DevOps & Deployment** (CI/CD, infrastructure, monitoring)
-- **Documentation** (API docs, user guides, technical writing)
-- **Testing** (test planning, test automation, quality assurance)
-- **Project Management** (sprint planning, retrospectives, requirements gathering)
-- **Security** (security audits, vulnerability assessments, compliance)
+- **Flujos de Trabajo de Desarrollo** (planificación de tareas, correcciones de errores, revisiones de código)
+- **DevOps y Despliegue** (CI/CD, infraestructura, monitoreo)
+- **Documentación** (docs de API, guías de usuario, escritura técnica)
+- **Pruebas** (planificación de pruebas, automatización de pruebas, aseguramiento de calidad)
+- **Gestión de Proyectos** (planificación de sprints, retrospectivas, recopilación de requisitos)
+- **Seguridad** (auditorías de seguridad, evaluaciones de vulnerabilidad, cumplimiento)
 
-### Step 2: Plan Your Template Structure
+### Paso 2: Planifica la Estructura de Tu Plantilla
 
-Before writing, outline:
-- What problem does this template solve?
-- What are the key steps in the process?
-- What information does an AI agent need to execute this workflow?
-- What are the quality standards and best practices?
+Antes de escribir, esquema:
+- ¿Qué problema resuelve esta plantilla?
+- ¿Cuáles son los pasos clave en el proceso?
+- ¿Qué información necesita un agente de IA para ejecutar este flujo de trabajo?
+- ¿Cuáles son los estándares de calidad y mejores prácticas?
 
-### Step 3: Write the Template
+### Paso 3: Escribe la Plantilla
 
-Follow these guidelines:
+Sigue estas pautas:
 
-1. **Use clear, descriptive headings**
-2. **Include TODO placeholders** for customization
-3. **Provide specific instructions** for AI agents
-4. **Include checklists** for progress tracking
-5. **Add examples** where helpful
-6. **Keep it comprehensive** but not overwhelming
+1. **Usa encabezados claros y descriptivos**
+2. **Incluye marcadores TODO** para personalización
+3. **Proporciona instrucciones específicas** para agentes de IA
+4. **Incluye listas de verificación** para seguimiento de progreso
+5. **Agrega ejemplos** donde sea útil
+6. **Mantenlo completo** pero no abrumador
 
-### Step 4: Add AI Agent Instructions
+### Paso 4: Agrega Instrucciones para el Agente de IA
 
-Every template must include a section with specific instructions for AI agents, including:
-- Mandatory process steps
-- Communication preferences
-- Quality standards
-- Error handling procedures
+Cada plantilla debe incluir una sección con instrucciones específicas para agentes de IA, incluyendo:
+- Pasos del proceso obligatorio
+- Preferencias de comunicación
+- Estándares de calidad
+- Procedimientos de manejo de errores
 
-### Step 5: Test Your Template
+### Paso 5: Prueba Tu Plantilla
 
-Before submitting, thoroughly test your template:
+Antes de enviar, prueba minuciosamente tu plantilla:
 
-1. **Use it yourself**: Follow the template with a real project scenario
-2. **Test with AI agents**: If possible, test with actual AI tools
-3. **Check completeness**: Ensure all sections are filled out properly
-4. **Verify formatting**: Check markdown rendering and structure
-5. **Validate instructions**: Confirm AI agent instructions are clear and actionable
+1. **Úsala tú mismo**: Sigue la plantilla con un escenario de proyecto real
+2. **Prueba con agentes de IA**: Si es posible, prueba con herramientas de IA reales
+3. **Verifica completitud**: Asegura que todas las secciones estén llenadas adecuadamente
+4. **Verifica formato**: Revisa el renderizado de markdown y la estructura
+5. **Valida instrucciones**: Confirma que las instrucciones del agente de IA sean claras y accionables
 
-## Template Naming Convention
+## Convención de Nomenclatura de Plantillas
 
-Templates must follow this naming pattern:
+Las plantillas deben seguir este patrón de nomenclatura:
 
 ```
-[number]_[descriptive_name]_template.md
+[numero]_[nombre_descriptivo]_template.md
 ```
 
-Examples:
+Ejemplos:
 - `005_deployment_workflow_template.md`
 - `006_security_audit_template.md`
 - `007_documentation_generation_template.md`
 - `008_performance_optimization_template.md`
 
-### Numbering Guidelines
+### Pautas de Numeración
 
-- Use zero-padded 3-digit numbers (001, 002, 003, etc.)
-- Numbers should be assigned sequentially
-- Check existing templates to determine the next available number
-- If you're unsure about numbering, submit your template and we'll assign the appropriate number
+- Usa números de 3 dígitos con ceros a la izquierda (001, 002, 003, etc.)
+- Los números deben asignarse secuencialmente
+- Revisa las plantillas existentes para determinar el siguiente número disponible
+- Si no estás seguro sobre la numeración, envía tu plantilla y asignaremos el número apropiado
 
-## Quality Standards
+## Estándares de Calidad
 
-### Content Quality
+### Calidad de Contenido
 
-- **Clarity**: Use clear, concise language
-- **Completeness**: Cover all necessary steps and considerations
-- **Accuracy**: Ensure technical accuracy and best practices
-- **Consistency**: Follow the established format and style
-- **Actionability**: Provide specific, actionable instructions
+- **Claridad**: Usa lenguaje claro y conciso
+- **Completitud**: Cubre todos los pasos y consideraciones necesarias
+- **Precisión**: Asegura precisión técnica y mejores prácticas
+- **Consistencia**: Sigue el formato y estilo establecidos
+- **Accionabilidad**: Proporciona instrucciones específicas y accionables
 
-### Formatting Standards
+### Estándares de Formato
 
-- Use markdown formatting consistently
-- Include proper heading hierarchy
-- Use bullet points and numbered lists appropriately
-- Include TODO placeholders for customization
-- Add checkboxes for progress tracking
+- Usa formato markdown consistentemente
+- Incluye jerarquía de encabezados adecuada
+- Usa viñetas y listas numeradas apropiadamente
+- Incluye marcadores TODO para personalización
+- Agrega casillas de verificación para seguimiento de progreso
 
-### Technical Standards
+### Estándares Técnicos
 
-- Templates should be technology-agnostic when possible
-- Include flexibility for different project types
-- Provide clear guidance for AI agents
-- Include error handling and edge case considerations
+- Las plantillas deben ser agnósticas a la tecnología cuando sea posible
+- Incluye flexibilidad para diferentes tipos de proyectos
+- Proporciona guía clara para agentes de IA
+- Incluye manejo de errores y consideraciones de casos borde
 
-## Submission Process
+## Proceso de Envío
 
-### Before Submitting
+### Antes de Enviar
 
-1. **Review your template** against the quality standards
-2. **Test the template** by using it in a real scenario
-3. **Check for typos** and formatting issues
-4. **Ensure consistency** with existing templates
+1. **Revisa tu plantilla** contra los estándares de calidad
+2. **Prueba la plantilla** usándola en un escenario real
+3. **Verifica errores tipográficos** y problemas de formato
+4. **Asegura consistencia** con plantillas existentes
 
-### How to Submit
+### Cómo Enviar
 
-1. **Create a Pull Request** with your new template
-2. **Include a description** of what the template does and why it's useful
-3. **Reference any related issues** or discussions
-4. **Add yourself** to the contributors list (if desired)
+1. **Crea un Pull Request** con tu nueva plantilla
+2. **Incluye una descripción** de lo que hace la plantilla y por qué es útil
+3. **Referencia cualquier issue relacionado** o discusiones
+4. **Agrégate** a la lista de colaboradores (si lo deseas)
 
-### Pull Request Template
+### Plantilla de Pull Request
 
-When creating a pull request, include:
+Al crear un pull request, incluye:
 
 ```markdown
-## Template: [Template Name]
+## Template: [Nombre de la Plantilla]
 
 ### Description
-[Brief description of what this template does]
+[Breve descripción de lo que hace esta plantilla]
 
 ### Use Cases
-- [Use case 1]
-- [Use case 2]
-- [Use case 3]
+- [Caso de uso 1]
+- [Caso de uso 2]
+- [Caso de uso 3]
 
 ### Key Features
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
+- [Característica 1]
+- [Característica 2]
+- [Característica 3]
 
 ### Testing
-- [ ] Template tested with real scenario
-- [ ] AI agent instructions verified
-- [ ] Formatting checked
-- [ ] Content reviewed for accuracy
+- [ ] Plantilla probada con escenario real
+- [ ] Instrucciones de agente de IA verificadas
+- [ ] Formato verificado
+- [ ] Contenido revisado por precisión
 
 ### Additional Notes
-[Any additional information or considerations]
+[Cualquier información o consideración adicional]
 ```
 
-## Review Process
+## Proceso de Revisión
 
-### What We Look For
+### Lo Que Buscamos
 
-1. **Adherence to Structure**: Follows the established template format
-2. **Content Quality**: Clear, accurate, and comprehensive
-3. **AI Agent Compatibility**: Instructions are clear for AI agents
-4. **Practical Value**: Solves real problems in AI-assisted development
-5. **Consistency**: Matches the style and tone of existing templates
+1. **Adherencia a la Estructura**: Sigue el formato de plantilla establecido
+2. **Calidad de Contenido**: Clara, precisa y completa
+3. **Compatibilidad con Agente de IA**: Las instrucciones son claras para agentes de IA
+4. **Valor Práctico**: Resuelve problemas reales en el desarrollo asistido por IA
+5. **Consistencia**: Coincide con el estilo y tono de las plantillas existentes
 
-### Review Timeline
+### Cronograma de Revisión
 
-- Initial review: Within 3-5 business days
-- Feedback provided: Within 1 week
-- Final approval: Within 2 weeks (depending on revisions needed)
+- Revisión inicial: Dentro de 3-5 días hábiles
+- Retroalimentación proporcionada: Dentro de 1 semana
+- Aprobación final: Dentro de 2 semanas (dependiendo de las revisiones necesarias)
 
-### Common Feedback Areas
+### Áreas Comunes de Retroalimentación
 
-- Missing AI agent instructions
-- Inconsistent formatting
-- Unclear or incomplete sections
-- Missing TODO placeholders
-- Lack of practical examples
+- Instrucciones de agente de IA faltantes
+- Formato inconsistente
+- Secciones poco claras o incompletas
+- Marcadores TODO faltantes
+- Falta de ejemplos prácticos
 
-### Common Mistakes to Avoid
+### Errores Comunes a Evitar
 
-- **Skipping AI Agent Instructions**: Every template must include specific instructions for AI agents
-- **Inconsistent Numbering**: Use proper heading hierarchy (1, 2, 3, not 1, 1.1, 1.2)
-- **Missing TODO Placeholders**: Include customization points for different projects
-- **Overly Specific Examples**: Keep examples generic and adaptable
-- **Incomplete Checklists**: Ensure all necessary verification steps are included
-- **Poor Section Organization**: Follow the established structure and flow
-- **Missing Error Handling**: Include guidance for edge cases and error scenarios
+- **Saltar Instrucciones de Agente de IA**: Cada plantilla debe incluir instrucciones específicas para agentes de IA
+- **Numeración Inconsistente**: Usa jerarquía de encabezados adecuada (1, 2, 3, no 1, 1.1, 1.2)
+- **Marcadores TODO Faltantes**: Incluye puntos de personalización para diferentes proyectos
+- **Ejemplos Demasiado Específicos**: Mantén los ejemplos genéricos y adaptables
+- **Listas de Verificación Incompletas**: Asegura que todos los pasos de verificación necesarios estén incluidos
+- **Mala Organización de Secciones**: Sigue la estructura y flujo establecidos
+- **Manejo de Errores Faltante**: Incluye guía para casos borde y escenarios de error
 
-## Template Categories
+## Categorías de Plantillas
 
-### Current Categories
+### Categorías Actuales
 
-1. **Task Planning** (001_task_planning_template.md)
-2. **Bug Fixes** (002_bug_fix_template.md)
-3. **Code Reviews** (003_code_review_template.md)
-4. **Git Workflow** (004_git_commit_workflow.md)
+1. **Planificación de Tareas** (001_task_planning_template.md)
+2. **Corrección de Errores** (002_bug_fix_template.md)
+3. **Revisiones de Código** (003_code_review_template.md)
+4. **Flujo de Trabajo de Git** (004_git_commit_workflow.md)
 
-### Suggested New Categories
+### Nuevas Categorías Sugeridas
 
-- **Deployment & DevOps**
-- **Security & Compliance**
-- **Testing & Quality Assurance**
-- **Documentation & Technical Writing**
-- **Performance Optimization**
-- **Database Management**
-- **API Development**
-- **Frontend Development**
-- **Backend Development**
-- **Mobile Development**
-- **Data Science & ML**
-- **Project Management**
-- **User Research & UX**
+- **Despliegue y DevOps**
+- **Seguridad y Cumplimiento**
+- **Pruebas y Aseguramiento de Calidad**
+- **Documentación y Escritura Técnica**
+- **Optimización de Rendimiento**
+- **Gestión de Base de Datos**
+- **Desarrollo de API**
+- **Desarrollo Frontend**
+- **Desarrollo Backend**
+- **Desarrollo Móvil**
+- **Ciencia de Datos y ML**
+- **Gestión de Proyectos**
+- **Investigación de Usuario y UX**
 
-## Examples and References
+## Ejemplos y Referencias
 
-### Study Existing Templates
+### Estudia Plantillas Existentes
 
-Before creating your template, study these examples:
+Antes de crear tu plantilla, estudia estos ejemplos:
 
-- **001_task_planning_template.md**: Comprehensive project planning
-- **002_bug_fix_template.md**: Systematic bug resolution
-- **003_code_review_template.md**: Thorough code evaluation
-- **004_git_commit_workflow.md**: Git workflow standardization
+- **001_task_planning_template.md**: Planificación de proyectos completa
+- **002_bug_fix_template.md**: Resolución de errores sistemática
+- **003_code_review_template.md**: Evaluación de código exhaustiva
+- **004_git_commit_workflow.md**: Estandarización de flujo de trabajo Git
 
-### Best Practices from Existing Templates
+### Mejores Prácticas de Plantillas Existentes
 
-1. **Clear Structure**: Use numbered sections with descriptive headings
-2. **TODO Placeholders**: Include customization points for different projects
-3. **AI Agent Instructions**: Provide specific, actionable guidance
-4. **Progress Tracking**: Include checklists and verification steps
-5. **Quality Standards**: Define clear expectations and best practices
+1. **Estructura Clara**: Usa secciones numeradas con encabezados descriptivos
+2. **Marcadores TODO**: Incluye puntos de personalización para diferentes proyectos
+3. **Instrucciones para Agente de IA**: Proporciona guía específica y accionable
+4. **Seguimiento de Progreso**: Incluye listas de verificación y pasos de verificación
+5. **Estándares de Calidad**: Define expectativas claras y mejores prácticas
 
-## Template Maintenance
+## Mantenimiento de Plantillas
 
-### Updating Existing Templates
+### Actualizando Plantillas Existentes
 
-If you find issues with existing templates or want to improve them:
+Si encuentras problemas con plantillas existentes o quieres mejorarlas:
 
-1. **Open an Issue** describing the problem or improvement
-2. **Create a Pull Request** with your proposed changes
-3. **Follow the same quality standards** as new templates
-4. **Test your changes** thoroughly before submitting
+1. **Abre un Issue** describiendo el problema o mejora
+2. **Crea un Pull Request** con tus cambios propuestos
+3. **Sigue los mismos estándares de calidad** que las nuevas plantillas
+4. **Prueba tus cambios** minuciosamente antes de enviar
 
-### Deprecation Process
+### Proceso de Desaprobación (Deprecation)
 
-Templates may be deprecated if they:
-- Become outdated due to technology changes
-- Are superseded by better alternatives
-- No longer serve their intended purpose
+Las plantillas pueden ser desaprobadas si:
+- Se vuelven obsoletas debido a cambios tecnológicos
+- Son reemplazadas por mejores alternativas
+- Ya no sirven a su propósito previsto
 
-Deprecated templates will be:
-- Marked clearly in the documentation
-- Moved to a deprecated folder
-- Replaced with updated versions when possible
+Las plantillas desaprobadas serán:
+- Marcadas claramente en la documentación
+- Movidas a una carpeta de desaprobadas
+- Reemplazadas con versiones actualizadas cuando sea posible
 
-## Getting Help
+## Obteniendo Ayuda
 
-### Questions or Issues?
+### ¿Preguntas o Problemas?
 
-- **Open an Issue**: For questions about the project or template creation
-- **Start a Discussion**: For broader conversations about workflow improvements
-- **Review Existing Issues**: Check if your question has been answered before
+- **Abre un Issue**: Para preguntas sobre el proyecto o creación de plantillas
+- **Inicia una Discusión**: Para conversaciones más amplias sobre mejoras de flujo de trabajo
+- **Revisa Issues Existentes**: Verifica si tu pregunta ha sido respondida antes
 
-### Community Guidelines
+### Pautas de la Comunidad
 
-- Be respectful and constructive
-- Provide helpful feedback
-- Share knowledge and best practices
-- Help others learn and improve
+- Sé respetuoso y constructivo
+- Proporciona retroalimentación útil
+- Comparte conocimientos y mejores prácticas
+- Ayuda a otros a aprender y mejorar
 
-## Recognition
+## Reconocimiento
 
-Contributors will be recognized in:
+Los colaboradores serán reconocidos en:
 
-- The project's README.md
-- Individual template headers (if desired)
-- Release notes for significant contributions
-- The project's contributors list
+- El README.md del proyecto
+- Encabezados de plantillas individuales (si se desea)
+- Notas de lanzamiento para contribuciones significativas
+- La lista de colaboradores del proyecto
 
-## License
+## Licencia
 
-By contributing to this project, you agree that your contributions will be licensed under the same license as the project (see LICENSE file for details).
-
+Al contribuir a este proyecto, aceptas que tus contribuciones serán licenciadas bajo la misma licencia que el proyecto (ver archivo LICENSE para detalles).
